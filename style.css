@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
-.progress_container {
+.container {
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.progress-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     position: relative;
     margin-bottom: 3px;
     max-width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .progress {
@@ -30,4 +40,13 @@
     border-radius: 50%;
     height: 30px;
     width: 30px;
+}
+
+.btn {
+    margin: 0 5px;
+    background-color: rgba(42, 134, 209, 0.842);
+    border-radius: 5px;
+    padding: 7px 20px;
+    color: #fff;
+    cursor: pointer;
 }
