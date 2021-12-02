@@ -5,3 +5,15 @@ const mext = document.getElementById("next")
 const circles = document.querySelectorAll('.circle')
 
 let currentActive = 1
+
+next.addEventListener('click', () => {
+    currentActive++
+
+    console.log(currentActive)
+})
+
+prev.addEventListener('click', () => {
+    currentActive--
+
+    console.log(currentActive)
+})
